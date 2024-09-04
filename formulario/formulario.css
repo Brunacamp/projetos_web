@@ -1,0 +1,41 @@
+body {
+    background-color: #d6d6d6;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vb;
+}
+.caixa {
+    background-color: #ffffff;
+    height: 450px;
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    background-color: rgb(8, 185, 255);
+    color: #fff;
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(118, 215, 253);
+}
