@@ -1,0 +1,14 @@
+.video {
+        background-color: #f7dadf;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+body {
+    background-color: #f7dadf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
