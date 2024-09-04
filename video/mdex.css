@@ -1,0 +1,25 @@
+button {
+    background-color: #efc3ca;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: #b66878;
+}
+.espaco {
+    margin: 30px;
+}
+body {
+    background-color: #f7dadf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    color: #b85e70;
+}
+a {
+    text-decoration: none; color: #c04760;
+    font-size: medium;
+}
