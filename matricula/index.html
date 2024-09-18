@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1>FICHA DE MATRICULA</h1>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="data">Data de Matrícula: <input id="data" name="data" type="date" required /></label>
+        <label for="data">Código da Matrícula: <input id="cod" name="cod" type="text" required /></label>
+      </fieldset>
+
+        <fieldset>
+        <h2>Dados do Aluno</h2>
+        <label for="nome">Nome <input id="nome" name="nome" type="nome" required /></label>
+        <label for="data-nasc">Data Nasc.: <input id="data-nasc" name="data-nasc" type="date" required /></label>
+        <label for="rg">RG: <input id="rg" name="rg" type="text" placeholder="XX.12345678-9" pattern="^\d{2}\.\d{8}-[0-9X]$" title="Formato: XX.12345678-X" required/></label>
+        <label for="cpf">CPF: <input id="cpf" name="cpf" type="number" required  placeholder="000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Formato: XXX.XXX.XXX-XX"/></label>
+        <label for="uf">UF: <input id="rg" uf="uf" type="number" required /></label>
+        <label for="orgao-exped">Orgão Exped.: <input id="orgao-exped" name="orgao-exped" type="text" required /></label>
+        <label for="naturalidade">Naturalidade: <input id="naturalidade" name="naturalidade" type="text" required /></label>
+        <label for="feminino"><input id="feminino" type="radio" name="account-type" class="inline" checked /> Feminino</label>
+        <label for="masculino"><input id="masculino" type="radio" name="account-type" class="inline" /> Masculino</label>
+        <label for="indefinido"><input id="indefinido" type="radio" name="account-type" class="inline" /> Prefiro não informar</label>
+        </fieldset>
+
+      <fieldset>
+      <h2>Filiação</h2>
+        <label for="pai">Pai: <input id="pai" name="pai" type="text" required /></label>
+        <label for="mae">Mãe: <input id="mae" name="mae" type="text" required /></label>
+        <label for="telresponsavel">Telefone do Responsavel: <input id="telresponsavel" name="telresponsavel" type="text" required /></label>
+        <label for="nomerespnsavel">Nome do Responsavel: <input id="nomeresponsavel" name="nomeresponsavel" type="text" required /></label>
+        <label for="respnsavel">Grau de Parentesco: <input id="responsavel" name="responsavel" type="text" required /></label>
+      </fieldset>
+
+    <fieldset>
+      <h2>Endereço</h2>
+        <label for="Rua">Rua: <input id="Rua" name="Rua" type="text" required /></label>
+        <label for="bairro">Bairro: <input id="bairro" name="bairro" type="text" required /></label>
+        <label for="cep">CEP <input id="cep" name="cep" type="text" required /></label>
+        <label for="naturalidade">Naturalidade: <input type="text" id="naturalidade" name="naturalidade" placeholder="Cidade - UF" 
+          pattern="^[A-Za-z\s]+ - [A-Z]{2}$" 
+          title="Formato: Cidade - UF (Ex: São Paulo - SP)" required></label>
+      <label for="UF">UF: <select name="uf" id="uf">
+          <option value="">Selecione uma UF</option>
+          <option value="AC">Acre (AC)</option>
+          <option value="AL">Alagoas (AL)</option>
+          <option value="AP">Amapá (AP)</option>
+          <option value="AM">Amazonas (AM)</option>
+          <option value="BA">Bahia (BA)</option>
+          <option value="CE">Ceará (CE)</option>
+          <option value="DF">Distrito Federal (DF)</option>
+          <option value="ES">Espírito Santo (ES)</option>
+          <option value="GO">Goiás (GO)</option>
+          <option value="MA">Maranhão (MA)</option>
+          <option value="MT">Mato Grosso (MT)</option>
+          <option value="MS">Mato Grosso do Sul (MS)</option>
+          <option value="MG">Minas Gerais (MG)</option>
+          <option value="PA">Pará (PA)</option>
+          <option value="PB">Paraíba (PB)</option>
+          <option value="PR">Paraná (PR)</option>
+          <option value="PE">Pernambuco (PE)</option>
+          <option value="PI">Piauí (PI)</option>
+          <option value="RJ">Rio de Janeiro (RJ)</option>
+          <option value="RN">Rio Grande do Norte (RN)</option>
+          <option value="RS">Rio Grande do Sul (RS)</option>
+          <option value="RO">Rondônia (RO)</option>
+          <option value="RR">Roraima (RR)</option>
+          <option value="SC">Santa Catarina (SC)</option>
+          <option value="SE">Sergipe (SE)</option>
+          <option value="SP">São Paulo (SP)</option>
+          <option value="TO">Tocantins (TO)</option>
+      </select></label>
+        <label for="comple">Complemento: <input id="comple" name="comple" type="text" /></label>
+        <label for="num">N°: <input id="num" name="num" type="text" required /></label>
+      </fieldset>
+
+      <fieldset>
+        <h2>Ano escolar</h2>
+        <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" checked /> Ed. Infantil:Maternal</label>
+        <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" /> Pré-escola</label>
+        <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" checked /> Ensino fundamental</label>
+        <label for="anoescolar"><input id="anoescolar" type="radio" name="anoescolar" class="inline" /> Ensino Médio</label>
+        <label for="anoescolar">Ano escolar: <input id="anoescolar" name="anoescolar" type="text" required /></label>
+      </fieldset>
+
+    <fieldset>
+        <h2>Relação de Documentos com a Matricula</h2>
+        <label for="qtd">QTD: <input id="qtd" name="qtd" type="number" required /></label>
+        <label for="profile-picture">DOCUMENTO: <input id="profile-picture" type="file" name="file" /></label>
+    </fieldset>
+
+    <fieldset>
+        <h2>Observações</h2>
+        <label for="digite">Digite aqui:
+          <textarea id="digite" name="digite" rows="3" cols="30" ></textarea>
+        </label>
+    </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
