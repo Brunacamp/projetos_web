@@ -1,0 +1,15 @@
+.background-transition {
+    background-color: rgb(78, 28, 124);
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    transition: background-color 2s ease-in;
+}
+
+.background-transition:hover {
+    background-color: rgb(155, 97, 189);
+}

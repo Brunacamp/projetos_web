@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.size {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(37, 42, 110);
+    color: #fff;
+    font-family: 'Segoe UI';
+    transition: width 0.5s, height 0.5s;
+}
+
+.size:hover{
+    width: 200px;
+    height: 150px;
+    font-size: 1.5rem;
+}
