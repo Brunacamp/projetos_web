@@ -1,0 +1,171 @@
+body {
+    background-color: #b093cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    min-height: 100vb;
+    align-items: center;
+    font-family: "Shrikhand", serif;
+    font-weight: 40;
+    font-style: normal;
+}
+
+.caixa {
+    background-color: #fcf6f0;
+    height: 500px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #36125c;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #493162;
+    border-radius: 3px;
+}
+
+textarea{
+    height: 120px;
+}
+
+.botaomenu {
+    background-color: #b7c99f;
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    border-color: #493162;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px 20px 30px;
+    font-size: 15px;
+}
+.button2:hover{
+    background-color: #99ac82;
+}
+
+.container {
+    display: flex;
+    margin: 0 0px;
+    padding: 30px;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li a:hover {
+    color: #d9eebd;
+}
+
+footer {
+    margin-top: 300px;
+    width: 1737px;
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    justify-content: center;
+    background-color: #fcf6f0;;
+}
+
+button {
+    background-color: #b7c99f;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: #000000;
+}
+
+.texto{
+    font-family: "lexend";
+    font-size: 20px;
+    padding: 5px 7px;
+    color: #6c34a8;  
+    justify-content: center;
+    display: flex;
+}
+
+h4{
+    padding: 5px 7px;
+    color: #3c1169;  
+    justify-content: center;
+    display: flex;
+
+}
+
+h1{
+    margin: 100px;
+    color: #fafafa;
+    font-weight: 100;
+    justify-content: center;
+    display: flex;
+
+}
+
+p{
+    font-family: "lexend";
+    font-size: 20px;
+    padding: 5px 7px;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    margin: 100px;
+}
+
+.img{
+    border: 20px;
+    margin: 100px;
+}
+
+.cabecario1 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+
+
+}
+
+.cabecario {
+    color: #3e4435;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+    margin: 0px 100px 90px;
+
+}
+
+.linha {
+    margin-top: 20px;
+    width: 1797px;
+    padding: 20px;
+    background-color: #fcf6f0;
+}
+
+.mapa {
+    display: inline-block;
+    text-align: center;
+}
+.fundo {
+    background-image: url(video/buque.gif);
+}

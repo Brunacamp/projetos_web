@@ -1,0 +1,81 @@
+.botaomenu {
+    background-color: #b7c99f;
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+    border-color: #493162;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px 20px 30px;
+    font-size: 15px;
+}
+a {
+    color: #493162;
+    text-decoration: none; 
+}
+body {
+    background-color: #b093cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    min-height: 100vb;
+    align-items: center;
+    font-family: "Shrikhand", serif;
+    font-weight: 40;
+    font-style: normal;
+}
+h1{
+    margin: 100px;
+    color: #fafafa;
+    font-weight: 100;
+    justify-content: center;
+    display: flex;
+
+}
+.linha {
+    margin-top: 0px;
+    width: 1797px;
+    padding: 20px;
+    background-color: #fcf6f0;
+}
+
+.cabecario1 {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+
+
+}
+
+.cabecario {
+    color: #3e4435;
+    padding: 0 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+    height: 20px;
+    margin: 0px 100px 90px;
+
+}
+footer {
+    margin-top: 300px;
+    width: 1737px;
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf6f0;;
+}
+.titulo1 {
+        margin: 100px;
+        color: #fafafa;
+        font-weight: 100;
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+}
